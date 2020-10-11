@@ -1,0 +1,39 @@
+    1  clear
+    2  git config --global user.name 'jorge gomez'
+    3  git config --global user.email 'gomezc.jorgel@gmail.com'
+    4  git init 
+    5  git status 
+    6  git config user.name
+    7  cd desktop 
+    8  mkdir curso_git 
+    9  cd curso_git 
+   10  git config user.name
+   11  git nit 
+   12  git init
+   13  git status 
+   14  echo '#Aprendendo o git' > readme.md
+   15  git log 
+   16  git status 
+   17  git add 'readme.md'
+   18  git status 
+   19  git commit -m 'commit inicial'
+   20  git status
+   21  echo '##aula 1' >> readme.md
+   22  git status 
+   23  echo 'jorge gomez' > participante.txt 
+   24  git status 
+   25  git add .
+   26  git status 
+   27  git restor --staged participante.txt
+   28  git restore --staged participante.txt
+   29  git status
+   30  git add participante.txt
+   31  git status
+   32  git restore --staged .
+   33  git status 
+   34  git commit -am 'alteracao no readme'
+   35  git status 
+   36  git add participante.txt 
+   37  git status
+   38  git commit -m 'adicionar participante.txt'
+   39  history > Aula3.txt
