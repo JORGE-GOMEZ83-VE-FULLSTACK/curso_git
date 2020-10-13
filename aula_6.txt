@@ -1,0 +1,99 @@
+    1  git branch
+    2  git checkout -b
+    3  git checkout -b feature 
+    4  git branch
+    5  touch nova_feature
+    6  git status 
+    7  git add nova_feature
+    8  git commit -m 'adicionando nova feature'
+    9  git log
+   10  git checkout master
+   11  git status 
+   12  git log
+   13  touch continuando_master 
+   14  git add continuando_master 
+   15  git commit -m 'adicionando continuacao na mater'
+   16  git log 
+   17  git checkout feature 
+   18  git log
+   19  git checkout -b feature2 master 
+   20  git log
+   21  git checkout -d feature2
+   22  git branch -d feature2
+   23  git log 
+   24  git checkout feature2
+   25  git pretty=oneline
+   26  git checkout master
+   27  git pretty=oneline
+   28  git log 
+   29  git ls
+   30  ls
+   31  git checkout master
+   32  git pretty=oneline
+   33  git help
+   34  git log --pretty=oneline
+   35  git merge master
+   36  git checkout -b feature 
+   37  git checkout -b 'feature' 
+   38  git log
+   39  git log --pretty=oneline
+   40  git branch
+   41  git checkout feature 
+   42  git branch
+   43  git merge feature 
+   44  git merge master
+   45  git log
+   46  git log --pretty=oneline
+   47  git log --pretty=oneline --graph
+   48  git reset --hard HEAD~
+   49  git log --pretty=oneline --graph
+   50  git rebase master 
+   51  git log --pretty=oneline --graph
+   52  git merge master 
+   53  git checkout feature
+   54  git log 
+   55  git branch
+   56  git merge master 
+   57  git merge feature 
+   58  git log --pretty=oneline --graph
+   59  git merge 'master'
+   60  git merge 'feature'
+   61  git branch
+   62  git rebase master
+   63  git log 
+   64  git log --pretty=oneline --graph
+   65  clear
+   66  git confg --global alias.log 'log --pretty=oneline --graph
+git confg --global alias.log 'log --pretty=oneline --graph'
+git confg --global alias.log 'log --pretty=oneline --graph
+   67  git config --global alias.log 'log --pretty=oneline --graph'
+   68  git logpg
+   69  clear
+   70  git config --global alias.logpg 'log --pretty=oneline graph'
+   71  git logpg
+   72  git log
+   73  git log --pretty=oneline --graph
+   74  git logpg
+   75  git config --global alias.logpg 'log --pretty=oneline graph'
+   76  git logpg
+   77  git tag -a v0.1 -m 'ate aula 5' 
+   78  git logpg
+   79  git log
+   80  git checkout master 
+   81  git loggp
+   82  git tag
+   83  git log --pretty=oneline --graph
+   84  git checkout feature 
+   85  git loggp
+   86  git config --global alias.logpa 'log --pretty=oneline graph'
+   87  git logpa
+   88  git log --pretty=oneline --graph
+   89  git config --global alias.logpa 'log --pretty=oneline graph'
+   90  git logpa
+   91  git config --global alias.logpa 'log --pretty=oneline --graph'
+   92  git logpa
+   93  git logpa
+   94  git checkout master
+   95  git rebase feature
+   96  git logpa
+   97  history > aula_6.txt 
